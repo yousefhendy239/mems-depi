@@ -1,0 +1,119 @@
+String Methods
+
+toUpperCase() — convert all letters into uppercase.
+
+toLowerCase() — convert all letters into lowercase.
+
+trim() — Removes spaces from the beginning and end of a string.
+
+trimStart() — Removes spaces from the beginning of a string.
+
+trimEnd() — Removes spaces from the end of a string.
+
+includes() — Checks if a string contains a specific value.
+
+startsWith() — Checks if a string starts with a specific value.
+
+endsWith() — Checks if a string ends with a specific value.
+
+indexOf() — Returns the index of the first match.
+
+lastIndexOf() — Returns the index of the last match.
+
+slice() — Takes a part of the string and returns it as a new string.
+
+substring() — like slice() but if negative number will be convert to zero
+
+replace() — Replaces the first matching value with another value.
+
+replaceAll() — Replaces all matching values with another value.
+
+split() — convert a string into an array.
+
+concat() — Joins two or more strings together.
+
+charAt() — Gets the character at a specific index.
+
+at() — Gets the character at a specific index, and it also supports negative indexes.
+
+padStart() — Adds characters to the beginning until the string reaches a specific length.
+
+padEnd() — Adds characters to the end until the string reaches a specific length.
+
+repeat() — Repeats the string a specific number of times.
+
+match() with REGX — Looks for a pattern inside the string and returns the matches.
+
+matchAll() with REGX — Finds all matches of a pattern inside the string.
+
+search() — Looks for a pattern and returns the index of the first match.
+---------------------------------------------------------------
+Number Methods
+
+toString() — Converts a number into a string.
+
+toFixed() — Controls how many digits appear after the decimal point.
+
+toLocaleString() — Formats a number based on the user's locale.
+
+isNaN() — Checks if the value is actually NaN.
+
+parseInt() — Converts a value into an integer.
+
+parseFloat() — Converts a value into a decimal number.
+-------------------------------------------------------------
+Array Methods
+
+push() — Adds one or more items to the end of an array.
+
+pop() — Removes the last item from an array.
+
+shift() — Removes the first item from an array.
+
+unshift() — Adds one or more items to the beginning of an array.
+
+includes() — Checks if an array contains a specific value.
+
+indexOf() — Returns the index of the first matching value.
+
+lastIndexOf() — Returns the index of the last matching value.
+
+forEach() — Runs a function for every item in the array.
+
+sort() — Sorts the items in an array.
+
+reverse() — Reverses the order of the items.
+
+toSorted() — Returns a sorted copy without changing the original array.
+
+toReversed() — Returns a reversed copy without changing the original array.
+
+splice() — Adds, removes, or replaces items inside an array.
+
+slice() — Takes a part of an array and returns it as a new array.
+
+toString() - convert array into string without control of seperator
+
+join() — convert array into string with seperator
+
+Array.isArray() — Checks if a value is an array.
+-----------------------------------------------------------------
+Math Methods
+
+Math.round() — Rounds a number to the nearest whole number.
+
+Math.floor() — Rounds a number down.
+
+Math.ceil() — Rounds a number up.
+
+Math.trunc() — Removes the decimal part of a number.
+
+Math.abs() — Returns the positive value of a number.
+
+Math.max() — Returns the biggest number.
+
+Math.min() — Returns the smallest number.
+
+Math.random() — Generates a random number between 0 and less than 1.
+
+Math.sign() — Tells you if a number is positive, negative, or zero.
